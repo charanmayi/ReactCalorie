@@ -1,0 +1,23 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+label.item {
+    color: #000000;
+    cursor: pointer;
+}
+
+:global(.dark) label.item {
+    color: #ffffff;
+}
+
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
